@@ -12,4 +12,5 @@ Kohanajobs.ru is a clone of kohanajobs.com - site to find experienced with Kohan
 The site built with [Kohana 3.3](https://github.com/kohana/core/tree/3.3/develop), custom modules are:
 * [Mailer](https://github.com/themusicman/Mailer)
 * [Template](https://github.com/chvanikoff/kohana-template)
+
 Currently there's some legacy code in project (e.x. classes/Common.php). Gonna fix it soon.
