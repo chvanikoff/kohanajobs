@@ -5,6 +5,7 @@ Kohanajobs.ru - клон западного сайта по размещению
 В основе системы лежит [Kohana 3.3](https://github.com/kohana/core/tree/3.3/develop), из дополнительных модулей были использованы:
 * [Mailer](https://github.com/themusicman/Mailer)
 * [Template](https://github.com/chvanikoff/kohana-template)
+
 В данный момент в проекте присутствует немало legacy-кода (в частности - classes/Common.php), оставшегося с прошлой версии.
 
 ## English
