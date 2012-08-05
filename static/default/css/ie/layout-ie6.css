@@ -1,0 +1,13 @@
+/* Style hacks applied to IE 6 and below */
+
+/* Fix doubled left margin of logo */
+#identity { display:inline; }
+
+/* Fix max-width of textareas */
+form p textarea { width:expression(document.body.clientWidth > 330 ? '330px' : 'auto'); }
+
+/* Fix main submit button */
+input.main { margin-right:0.625em;/*10px*/ padding:0.25em;/*4px*/ font-size:1.143em;/*16px*/ font-weight:bold; text-transform:uppercase; }
+
+/* PNG fixes */
+#post a:hover { background:none; }

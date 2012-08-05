@@ -1,0 +1,13 @@
+/* Style hacks applied to IE 7 and below */
+
+/* Clearfix #main */
+#main { zoom:1; }
+
+/* Fix position of background image */
+#footer { zoom:1; }
+
+/* Unbolden headings */
+h1, h2 { font-weight:normal; }
+
+/* Fix width of date cells */
+td.date { padding:9px 0 10px 20px; }

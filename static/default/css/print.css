@@ -1,0 +1,16 @@
+/* Base font size */
+body { font-size:11pt; }
+
+/* Hide stuff, save ink */
+.hide4print, #header, #flash, #rss-jobs, #sidebar, #footer { display:none; }
+
+/* Avoid page breaks */
+h1, h2, h3, blockquote, .intro { page-break-inside:avoid; }
+h1, h2, h3 { page-break-after:avoid; }
+
+/* Make table grid visual */
+table { width:100%; border-top:0.5pt solid #999; }
+td, th { padding:0.25em; border-bottom:0.5pt solid #999; }
+
+/* Print URL after certain links */
+a.printurl:after { content:' (' attr(href) ') '; }
